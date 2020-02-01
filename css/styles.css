@@ -76,6 +76,13 @@ header p span {
     font-family: 'Poppins', sans-serif;
     font-size: 2vw;
   }
+
+  header span {
+    display: block;
+    font-size: inherit;
+    font-weight: 600;
+  }
+
   header p span {
     display: inline;
   }
