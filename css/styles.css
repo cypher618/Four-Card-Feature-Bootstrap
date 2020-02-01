@@ -45,6 +45,11 @@ header p span {
   font-weight: inherit;
 }
 
+/* Footer Section */
+main {
+  margin-bottom: 10%;
+}
+
 /* Bootstrap Classes Override */
 /* Main Section */
 .card1, .card2, .card3, .card4 {
