@@ -83,4 +83,8 @@ header p span {
   .card1, .card2, .card3, .card4 {
     margin-bottom: 5%;
   }
+
+  .container {
+    max-width: 100%;
+  }
 }
