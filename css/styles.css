@@ -28,6 +28,7 @@ p {
 header {
   margin: 3% 0;
 }
+
 header span {
   display: block;
   font-weight: 600;
@@ -47,10 +48,9 @@ header p span {
   padding: 10%;
   text-align: left;
   width: 100%;
-
-  -webkit-box-shadow: 0 16px 25px -14px rgba(147,165,189, 0.6);
-  -moz-box-shadow: 0 16px 25px -14px rgba(147,165,189, 0.6);
-  box-shadow: 0 16px 25px -14px rgba(147,165,189, 0.6);
+  -webkit-box-shadow: 0 16px 25px -14px rgba(147, 165, 189, 0.6);
+  -moz-box-shadow: 0 16px 25px -14px rgba(147, 165, 189, 0.6);
+  box-shadow: 0 16px 25px -14px rgba(147, 165, 189, 0.6);
 }
 
 .card1 {
@@ -68,4 +68,19 @@ header p span {
 
 .card4 {
   border-top: 4px solid #549ef2;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  header p span {
+    display: inline;
+  }
+
+  .card1, .card2, .card3, .card4 {
+    margin-bottom: 5%;
+  }
 }
