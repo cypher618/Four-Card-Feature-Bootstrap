@@ -71,7 +71,7 @@ header p span {
 }
 
 /* Media Queries */
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 1000px) {
   .heading {
     font-size: 2.5rem;
   }
