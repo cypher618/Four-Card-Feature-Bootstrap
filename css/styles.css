@@ -70,7 +70,6 @@ header p span {
   border-top: 4px solid #549ef2;
 }
 
-<<<<<<< HEAD
 /* Media Queries */
 @media only screen and (max-width: 768px) {
   .heading {
@@ -83,14 +82,5 @@ header p span {
 
   .card1, .card2, .card3, .card4 {
     margin-bottom: 5%;
-=======
-@media (min-width: 768px) {
-  .container {
-    max-width: 95%;
-  }
-
-  .card1, .card2, .card3, .card4 {
-    margin-bottom: 10%;
->>>>>>> ca152adafba569d7e63cc8b26860c9630a7b65ba
   }
 }
