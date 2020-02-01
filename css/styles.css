@@ -1,0 +1,71 @@
+body {
+  background: #FAFAFA;
+  color: #4c4e61;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+img {
+  float: right;
+}
+
+p {
+  color: #a3a5ae;
+}
+
+/* Header Section */
+header {
+  margin: 3% 0;
+}
+header span {
+  display: block;
+  font-weight: 600;
+}
+
+header p span {
+  display: block;
+  font-weight: inherit;
+}
+
+/* Bootstrap Classes Override */
+/* Main Section */
+.card1, .card2, .card3, .card4 {
+  background: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  padding: 10%;
+  text-align: left;
+  width: 100%;
+
+  -webkit-box-shadow: 0 16px 25px -14px rgba(147,165,189, 0.6);
+  -moz-box-shadow: 0 16px 25px -14px rgba(147,165,189, 0.6);
+  box-shadow: 0 16px 25px -14px rgba(147,165,189, 0.6);
+}
+
+.card1 {
+  border-top: 4px solid #45d3d3;
+}
+
+.card2 {
+  border-top: 4px solid #ea5353;
+  margin-bottom: 8%;
+}
+
+.card3 {
+  border-top: 4px solid #fcaf4a;
+}
+
+.card4 {
+  border-top: 4px solid #549ef2;
+}
