@@ -72,16 +72,20 @@ header p span {
 
 /* Media Queries */
 @media only screen and (min-width: 320px) and (max-width: 1000px) {
-  .heading {
-    font-size: 2.5rem;
+  * {
+    font-size: 2vw;
   }
-
   header p span {
     display: inline;
   }
 
+  .heading {
+    font-size: 2.5rem;
+  }
+
   .card1, .card2, .card3, .card4 {
     margin-bottom: 5%;
+    padding: 5%;
   }
 
   .container {
