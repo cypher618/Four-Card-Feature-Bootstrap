@@ -46,13 +46,8 @@ header p span {
 }
 
 /* Footer Section */
-<<<<<<< HEAD
 main {
   margin-bottom: 10%;
-=======
-footer {
-  margin: 10% 0;
->>>>>>> 3b430ea3cfc931a310233b19ac258d1afb9ee271
 }
 
 /* Bootstrap Classes Override */
